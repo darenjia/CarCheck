@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CarCheck</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">用户名</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_invalid_email">用户名不能为空</string>
+    <string name="error_invalid_password">请输入密码</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="mis_error_image_not_exist">照片不存在</string>
+    <string name="mis_msg_no_camera">相机不存在</string>
+    <string name="about_shiyongjs">使用说明</string>
+    <string name="about_qingkongjilu">清空缓存</string>
+    <string name="about_gx">检查更新</string>
+    <string name="about_fankui">问题反馈</string>
+    <string name="about_qingchuhc">清空缓存</string>
+    <string name="about_zidongsc">WIFI下上传</string>
+</resources>

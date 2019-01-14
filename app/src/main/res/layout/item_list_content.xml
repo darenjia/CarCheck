@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginLeft="4dp"
+    android:padding="4dp"
+    app:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/id_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:textColor="@color/ColorSecondText"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/year_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/id_text"
+            android:padding="5dp"
+            android:text="2018-02-15"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/qu_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_text"
+            android:layout_toLeftOf="@id/year_text"
+            android:padding="5dp"
+            android:text="黄浦区"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/area_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_text"
+            android:layout_toLeftOf="@id/qu_text"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="三类区域"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/type_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_text"
+            android:layout_toLeftOf="@id/area_text"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="15sp" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

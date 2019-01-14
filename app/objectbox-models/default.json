@@ -1,0 +1,105 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "2:7538364576452620902",
+      "lastPropertyId": "12:25790947791623056",
+      "name": "CheckPlan",
+      "properties": [
+        {
+          "id": "1:6045658557369863716",
+          "name": "id"
+        },
+        {
+          "id": "5:2913622127294078526",
+          "name": "ProjectName"
+        },
+        {
+          "id": "6:355789255344399591",
+          "name": "ProjectAddress"
+        },
+        {
+          "id": "7:1040187297355881071",
+          "name": "Area"
+        },
+        {
+          "id": "9:2690992524733110668",
+          "name": "BuildingAllArea"
+        },
+        {
+          "id": "10:2738935368246997764",
+          "name": "BuildingAllBerth"
+        },
+        {
+          "id": "11:608335917196041418",
+          "name": "Qu"
+        },
+        {
+          "id": "12:25790947791623056",
+          "name": "type"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:7741330715540355156",
+      "lastPropertyId": "6:7484304305714268938",
+      "name": "CheckResult",
+      "properties": [
+        {
+          "id": "1:5879026477798766118",
+          "name": "id"
+        },
+        {
+          "id": "2:519103012931979763",
+          "name": "resultID"
+        },
+        {
+          "id": "3:2646378487381962812",
+          "name": "result"
+        },
+        {
+          "id": "4:3479286083681231444",
+          "name": "imageUrl"
+        },
+        {
+          "id": "5:3743315562539868597",
+          "name": "remark"
+        },
+        {
+          "id": "6:7484304305714268938",
+          "indexId": "3:3499923043600088774",
+          "name": "planId"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:7741330715540355156",
+  "lastIndexId": "3:3499923043600088774",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [
+    12342331302646840
+  ],
+  "retiredIndexUids": [
+    3511984613685609274,
+    6307476741488569056
+  ],
+  "retiredPropertyUids": [
+    5219037761015115321,
+    9030060948896037184,
+    40249998117654499,
+    6485446391482765170,
+    2622497304292630857,
+    6209992423633984934,
+    214621843518090125,
+    8181764377813831040
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

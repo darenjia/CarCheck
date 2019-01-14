@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/about_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="10dp"
+        android:drawableTop="@mipmap/icon_app"
+        android:gravity="center"
+        android:textColor="@color/ColorSecondText"
+        android:textSize="18sp"
+        android:text="V1.0 检查" />
+
+
+    <TextView
+        android:id="@+id/about_intr"
+        style="@style/about_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_shiyongjs" />
+
+
+    <Switch
+        android:id="@+id/about_auto_upload"
+        style="@style/about_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:text="@string/about_zidongsc" />
+
+
+    <TextView
+        android:id="@+id/about_clean_search"
+        style="@style/about_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_qingkongjilu" />
+
+
+    <TextView
+        style="@style/about_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_qingchuhc" />
+
+
+    <TextView
+        android:id="@+id/about_comment"
+        style="@style/about_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_fankui" />
+
+
+    <TextView
+        android:id="@+id/about_update"
+        style="@style/about_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_gx" />
+
+
+</LinearLayout>
